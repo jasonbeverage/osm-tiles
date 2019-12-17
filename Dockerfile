@@ -30,3 +30,5 @@ RUN git clone https://github.com/mapbox/tippecanoe.git
 RUN cd tippecanoe && \
     make && \
     make install
+
+ADD qa.json /qa.json
