@@ -26,7 +26,7 @@ aws s3 ls osm-pds/2018/
 
 The last pbf file is the most recent, so lets download it.
 ```
-aws s3 cp osm-pds/2018/planet-180226.osm.pbf planet-latest.osm.pbf
+aws s3 cp s3://osm-pds/2018/planet-180226.osm.pbf planet-latest.osm.pbf
 ```
 
 
