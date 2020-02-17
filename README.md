@@ -3,7 +3,7 @@ Dockerfile for generating openstreetmap tiles
 
 The goal of this dockerfile is to generate OpenStreetMap vector tiles to power osgEarth based applications.
 
-You're going to need lots of ram to generate this tileset, at least 60GB.  So fire up something like an r4.2xlarge instance on AWS and allocate around 1TB of disk space for temporary data storage.
+You're going to need lots of ram to generate this tileset, at least 120GB.  So fire up something like an r4.4xlarge instance on AWS and allocate around 1TB of disk space for temporary data storage.
 
 First, download the latest osm dataset.
 
