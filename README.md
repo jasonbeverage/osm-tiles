@@ -32,7 +32,7 @@ aws s3 cp s3://osm-pds/2018/planet-180226.osm.pbf planet-latest.osm.pbf
 
 Filter out only the things we need
 ```
-docker run -v $(pwd):/data jasonbeverage/osm-tiles osmium tags-filter /data/planet-latest.osm.pbf building landuse natural!=water surface amenity aeroway highway leisure man_made power railway -o /data/qa.pbf
+docker run -v $(pwd):/data jasonbeverage/osm-tiles osmium tags-filter /data/planet-latest.osm.pbf building landuse water waterway natural surface amenity aeroway highway leisure man_made power railway -o /data/qa.pbf
 ```
 
 Now generate the vector tiles.
