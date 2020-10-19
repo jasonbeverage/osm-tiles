@@ -9,8 +9,8 @@
         "user":      false,
         "way_nodes": false
     },
-    "linear_tags":  ["highway", "barrier", "natural=coastline"],
-    "area_tags":    ["aeroway", "amenity", "building", "landuse", "leisure", "man_made", "natural!=coastline"],
+    "linear_tags":  ["highway", "barrier", "natural=coastline", "waterway!=riverbank"],
+    "area_tags":    ["aeroway", "amenity", "building", "landuse", "leisure", "man_made", "natural!=coastline", "waterway=riverbank"],
     "exclude_tags": ["created_by", "source", "source:*"],
     "include_tags": []
 }
